@@ -22,3 +22,17 @@ func Div(a, b int) (int, error) {
 	}
 	return a/b, nil
 }
+
+func Power(a, b int) int {
+	if b == 1{
+		return  a
+	}
+	if 0 == b {
+		return 1
+	}
+	if 0 == b&1  {
+		half := Power(a, b/2)
+		return half*half
+	}
+	return Power(a, b-1) * a
+}
