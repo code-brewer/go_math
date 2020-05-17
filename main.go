@@ -24,12 +24,14 @@ func Div(a, b int) (int, error) {
 }
 
 func Power(a, b int) int {
-	if b == 1{
+	if 1 == b {
 		return  a
 	}
+
 	if 0 == b {
 		return 1
 	}
+
 	if 0 == b&1  {
 		half := Power(a, b/2)
 		return half*half
