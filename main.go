@@ -16,6 +16,7 @@ func Sub(a, b int) int {
 }
 
 func Mul(a, b int) int {
+	fmt.Println("Log from assist‘s github code-space. Mul()call ...")
 	return a*b
 }
 
