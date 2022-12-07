@@ -1,10 +1,12 @@
 package go_math
 
 import (
+	"fmt"
 	"errors"
 )
 
 func Add(a, b int) int {
+	fmt.Println("Add on my gitee repo");
 	return a+b
 }
 
