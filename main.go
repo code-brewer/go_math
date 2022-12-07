@@ -6,6 +6,7 @@ import (
 )
 
 func Add(a, b int) int {
+	fmt.Println("Add on my gitee repo");
 	return a+b
 }
 
