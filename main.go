@@ -1,6 +1,7 @@
 package go_math
 
 import (
+	"fmt"
 	"errors"
 )
 
@@ -9,6 +10,7 @@ func Add(a, b int) int {
 }
 
 func Sub(a, b int) int {
+	fmt.Println("Log from my github code-space. Sub()call ...")
 	return a-b
 }
 
